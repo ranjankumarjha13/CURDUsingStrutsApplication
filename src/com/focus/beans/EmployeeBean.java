@@ -23,7 +23,6 @@ public class EmployeeBean {
                 ", zipcode='" + zipcode + '\'' +
                 '}';
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -59,7 +58,5 @@ public class EmployeeBean {
     public void setZipcode(String zipcode) {
         this.zipcode = zipcode;
     }
-
-
 
 }
