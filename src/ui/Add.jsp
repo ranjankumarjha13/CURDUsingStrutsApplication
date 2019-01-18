@@ -8,10 +8,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<%@ taglib prefix="FocusTags" uri="/tlds/fcomps" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
-
 <jsp:useBean id="clTagConstants" class="tags.CLTagConstants"/>
 <html>
 <head>
@@ -24,7 +21,6 @@
     }
   </style>
     <title></title>
-
   <script src="res/scripts/myTabblePanne.js"> </script>
   <link href="res/global/styles/home.css" rel="stylesheet" type="text/css">
   <link href="res/global/styles/App.css" rel="stylesheet" type="text/css">
@@ -46,22 +42,18 @@
 <div align="center" style="padding: 10px;">
 <div class="card" style="padding: 10px;">
 <h2 style="color: #000FF0">Registration Page</h2>
-
     <hr>
   <div style="padding-bottom: 10px;">
     <span>Note:-</span>
     <span style="color: red;">*</span>
     <span>marks denotes Mindetory Field......</span>
   </div>
-
   <form name="frmAdd">
     <div>
-
     <span style="float: left;padding-bottom: 5px;"><label style="font-family: bold;font-size: 14px;">Name:-</label><span style="
     color: red;font-size: 12px;">*</span></span>
     </div>
     <div style="padding-bottom: 20px;">
-     <%-- <FocusTag:STextField name="eb.name" id="name"></FocusTag:STextField>--%>
       <input type="text" name="eb.name" id="name">
     </div>
     <div>
@@ -69,7 +61,6 @@
     color: red;font-size: 12px;">*</span></span>
     </div>
     <div style="padding-bottom: 20px;">
-      <%--<FocusTag:STextField name="eb.mobile" id="mobile"></FocusTag:STextField>--%>
         <input type="text" name="eb.mobile" id="mobile">
     </div>
     <div>
@@ -77,7 +68,6 @@
     color: red;font-size: 12px;">*</span></span>
     </div>
     <div style="padding-bottom: 20px;">
-     <%-- <FocusTag:STextField name="eb.email" id="email"></FocusTag:STextField>--%>
        <input type="text" name="eb.email" id="email">
     </div>
     <div>
@@ -85,7 +75,6 @@
     color: red;font-size: 12px;">*</span></span>
     </div>
     <div style="padding-bottom: 20px;">
-     <%-- <FocusTag:STextarea name="eb.address" id="address"></FocusTag:STextarea>--%>
        <input type="text" name="eb.address" id="address">
     </div>
     <div>
@@ -93,18 +82,13 @@
     color: red;font-size: 12px;">*</span></span>
     </div>
     <div style="padding-bottom: 20px;">
-     <%-- <FocusTag:STextField name="eb.zipcode" id="zipcode"></FocusTag:STextField>--%>
        <input type="text" name="eb.zipcode" id="zipcode">
     </div>
-
   </form>
-
   <div>
     <input type="button" value="Register"  id="buttoncheck" onclick="register()">
   </div>
-
   <div id="resRegDv" style="color: green"></div>
-
 </div>
 </div>
 </body>
