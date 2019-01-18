@@ -12,25 +12,16 @@
 <html>
 <head>
     <style>
-
     </style>
     <title></title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
 <body>
 <div class="container">
     <h1 style="color: cornflowerblue">Employee Details</h1>
-     <%--<div style="float: right">
-         <a href="index.jsp">Back To HomePgae</a>
-     </div>--%>
-
-
-
     <table class="table" align="center">
         <thead>
         <tr>
@@ -50,49 +41,17 @@
             <td>${v.email}</td>
             <td>${v.address}</td>
             <td>${v.zipcode}</td>
-
             <td><a href="#" onclick="Clview.edit('${v.name}')" class="fa fa-edit">Edit</a></td>
             <td><a href="#" onclick="Clview.deleteEmp('${v.name}')" class="fa fa-edit">Delete</a></td>
-
         </tr>
-
-
         </tbody>
     </c:forEach>
     </table>
     <div id="dvEditView">
-
     </div>
     <div id="dvupdate">
-
     </div>
 </div>
-
-
-<%--
-<div id="viewdiv">
-
-  <table border="2">
-     <th>Name</th>
-    <th>Mobile</th>
-    <th>Email</th>
-    <th>Address</th>
-    <th>zipcode</th>
-
-
-    <c:forEach items="${data}" var="v">
-        <tr>
-            <td>${v.name}</td>
-            <td>${v.mobile}</td>
-            <td>${v.email}</td>
-            <td>${v.address}</td>
-            <td>${v.zipcode}</td>
-
-        </tr>
-    </c:forEach>
-  </table>
-</div>
---%>
 </body>
 <script src="res/scripts/myscript/index.js"></script>
 <script src="res/scripts/myscript/ajax.js"></script>
@@ -120,5 +79,4 @@
 <script src="res/scripts/utilities.js"> </script>
 <script src="res/scripts/validation.js"> </script>
 <script src="res/scripts/jquery-2.0.3.js"></script>
-
 </html>

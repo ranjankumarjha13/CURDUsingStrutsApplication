@@ -13,18 +13,7 @@
 <html>
 <head>
     <style>
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-            transition: 0.3s;
-            width: 40%;
-            border-radius: 50%;
-        }
-
-        .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
     </style>
-
     <title></title>
     <link href="res/global/styles/home.css" rel="stylesheet" type="text/css">
     <link href="res/global/styles/App.css" rel="stylesheet" type="text/css">
@@ -41,10 +30,8 @@
     <link href="res/global/styles/tabmenu.css" rel="stylesheet" type="text/css">
     <link href="res/global/styles/Uploadbar.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 </head>
 <body>
 <h2 align="center" style="font-family: bold">Welcome to Struts CURD Operation</h2>
@@ -52,10 +39,7 @@
       <a href="addForm!getAddDetails.do">AddDetails</a>
       <a href="viewData!viewDetails.do">ViewDetails</a>
     <a href="#" onclick="ClTablejs.createRow()">CreteRow</a>
-
-
 </div>
-
 </body>
 <script src="res/scripts/myscript/index.js"></script>
 <script src="res/scripts/myscript/ajax.js"></script>
@@ -86,5 +70,4 @@
 <FocusTags:SOnLoadScript></FocusTags:SOnLoadScript>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </html>
