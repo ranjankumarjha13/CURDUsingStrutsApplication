@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="CURDUsingStrutsApplication:war exploded">
+    <output-path>D:/Tomcat Server/webapps/CURDUsingStrutsApplication</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CURDUsingStrutsApplication/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CURDUsingStrutsApplication" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="C:/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

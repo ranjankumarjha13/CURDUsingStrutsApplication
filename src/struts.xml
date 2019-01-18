@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+        <constant name="struts.action.extension" value="do,action"/>
+        <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+        <constant name="struts.devMode" value="true" />
+        <constant name="struts.i18n.encoding" value="UTF-8"/>
+        <constant name="struts.custom.i18n.resources" value="input" />
+        <!--    <constant name="struts.devMode" value="true" />-->
+        <constant name="struts.multipart.maxSize" value="1000000" />
+        <package name="default" namespace="/" extends="struts-default" >
+                <action name="addForm" class="com.focus.controller.MainController">
+                         <result name="success">/WEB-INF/jsp/Add.jsp</result>
+                        <result name="error">/WEB-INF/jsp/Error.jsp</result>
+
+
+                </action>
+                <action name="viewData" class="com.focus.controller.MainController">
+                        <result name="success">/WEB-INF/jsp/ViewDetails.jsp</result>
+                        <result name="error">/WEB-INF/jsp/Error.jsp</result>
+                </action>
+                <action name="edit" class="com.focus.controller.MainController">
+                      <result name="success">/WEB-INF/jsp/Edit.jsp</result>
+                </action>
+                <action name="delete" class="com.focus.controller.MainController">
+                                <result name="error">/WEB-INF/jsp/Error.jsp</result>
+                </action>
+                <action name="update" class="com.focus.controller.MainController">
+                        <result name="error">/WEB-INF/jsp/Error.jsp</result>
+                </action>
+                </package>
+</struts>
