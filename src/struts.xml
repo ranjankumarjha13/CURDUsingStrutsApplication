@@ -3,7 +3,6 @@
 <!DOCTYPE struts PUBLIC
         "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
         "http://struts.apache.org/dtds/struts-2.3.dtd">
-
 <struts>
         <constant name="struts.action.extension" value="do,action"/>
         <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
@@ -16,8 +15,6 @@
                 <action name="addForm" class="com.focus.controller.MainController">
                          <result name="success">/WEB-INF/jsp/Add.jsp</result>
                         <result name="error">/WEB-INF/jsp/Error.jsp</result>
-
-
                 </action>
                 <action name="viewData" class="com.focus.controller.MainController">
                         <result name="success">/WEB-INF/jsp/ViewDetails.jsp</result>
